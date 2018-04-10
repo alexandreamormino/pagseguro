@@ -1,0 +1,15 @@
+{
+    "name": "alexandreamormino/pagseguro",
+    "description": "Checkout transparente PagSeguro",
+    "type": "libray",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "PagSeguro\\": "src/"
+        }
+    }
+}
